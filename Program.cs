@@ -34,10 +34,10 @@ void DigitsGreaterThanZero()
  
     for (int i = 0; i < arr.Length; i++)
     {
-    if (arr[i] > 0)
-    {
-        count++;
-    }
+        if (arr[i] > 0)
+        {
+            count++;
+        }
     }
  
 Console.WriteLine($"Numbers > 0 = {count}");
